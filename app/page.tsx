@@ -9,6 +9,16 @@ export default function Home() {
 
   return (
     <main className="container">
+    {/* ⚽ soccer-tokyo-jp 誘導バナー */}
+    <div style={{marginBottom:'2rem',padding:'1.25rem',background:'linear-gradient(135deg,#0a3d62,#1a6ba0)',borderRadius:'16px',border:'2px solid #4CAF50'}}>
+      <p style={{color:'rgba(255,255,255,0.7)',fontSize:'11px',margin:'0 0 6px'}}>⚽ 関東のジュニアサッカーチームを探している方へ</p>
+      <p style={{color:'white',fontSize:'15px',fontWeight:700,margin:'0 0 8px'}}>関東1,000チーム以上をAIで検索・マッチング</p>
+      <p style={{color:'rgba(255,255,255,0.8)',fontSize:'12px',margin:'0 0 12px'}}>東京・神奈川・埼玉・千葉のU-12〜U-15チーム情報・セレクション</p>
+      <a href='https://soccer-tokyo-jp.vercel.app' target='_blank' rel='noopener noreferrer'
+        style={{display:'inline-block',padding:'10px 20px',background:'#4CAF50',color:'white',borderRadius:'20px',textDecoration:'none',fontSize:'13px',fontWeight:700}}>
+        チームを探す →
+      </a>
+    </div>
 
       {/* 最新記事 - クローラーが最初に見る場所 */}
       <section className="section">
