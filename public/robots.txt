@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://junior-soccer-jp.vercel.app/sitemap.xml
+Sitemap: https://okuwabara07-gif.github.io/junior-soccer-jp/sitemap.xml
